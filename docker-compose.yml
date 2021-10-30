@@ -4,7 +4,7 @@ services:
 
   node:
     container_name: ${COMPOSE_PROJECT_NAME}_node
-    image: mpastorg/golem-mpg-lts:0.7.3
+    image: mpastorg/golem-mpg-lts:0.8.0
     restart: always
     volumes:
       - /etc/localtime:/etc/localtime:ro
