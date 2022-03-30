@@ -1,3 +1,11 @@
+# mpastorg to remember
+git clone https://github.com/mpastorg/golem-mpg-lts
+
+- review and make version changes in Dockerfile, typically YA_CORE_VERSION
+- change version in docker-compose.yml, right now is golem-mpg-lts:0.9.2  
+- docker build -t mpastorg/golem-mpg-lts:0.9.2 .
+
+
 #  Golem Provider Node :whale: Docker Image
 
 > Project won one of the four prizes allocated by the Golem Project on Gitcoin's [Hack New Golem](https://gitcoin.co/issue/golemfactory/hackathons/6/100024411) bounty!
